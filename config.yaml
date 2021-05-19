@@ -1,0 +1,55 @@
+title: Alison Hill
+baseurl: https://pbhattacharyya.rbind.io
+copyright: '&copy;{year} Pinaki Bhattacharyya'
+theme: hugo-academic
+enableGitInfo: no
+defaultContentLanguage: en
+hasCJKLanguage: no
+defaultContentLanguageInSubdir: no
+removePathAccents: yes
+summaryLength: 30
+paginate: 10
+enableEmoji: yes
+footnotereturnlinkcontents: <sup>^</sup>
+ignoreFiles:
+  - \.ipynb$
+  - .ipynb_checkpoints$
+  - \.Rmd$
+  - \.Rmarkdown$
+  - _cache$
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+    - WebAppManifest
+  section:
+    - HTML
+    - RSS
+mediaTypes:
+  application/manifest+json:
+    suffixes: webmanifest
+outputFormats:
+  WebAppManifest:
+    mediaType: application/manifest+json
+    rel: manifest
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: yes
+  highlight:
+    codeFences: no
+    style: pygments
+  tableOfContents:
+    endLevel: 2
+    startLevel: 2
+imaging:
+  anchor: smart
+  quality: 90
+  resampleFilter: lanczos
+taxonomies:
+  author: authors
+  category: categories
+  publication_type: publication_types
+  tag: tags
