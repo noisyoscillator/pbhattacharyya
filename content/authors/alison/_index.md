@@ -1,8 +1,7 @@
 ---
 authors:
-- alison
-bio: I'm a developmental psychologist, former NIH Principal Investigator, and autism
-  researcher who loves programming.
+- pinaki
+bio: I'm a researcher in the field of Statistical Mechanics, Polymer Physics.
 education:
   courses:
   - course: PhD in Developmental Psychology & Quantitative Methods
@@ -22,37 +21,31 @@ interests:
 - Data visualization
 - Machine learning
 - Literate programming
-name: Alison Hill
+name: Pinaki Bhattacharyya
 organizations:
-- name: RStudio
-  url: https://www.rstudio.com
-role: Data Scientist & Professional Educator
+- name: Indian Institute of Science, Bangalore
+  url: https://iisc.ac.in/
+role: Graduate Student in Polymer Physics
 social:
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/apreshill
+  link: https://twitter.com/pinakiclickz
 - icon: github
   icon_pack: fab
-  link: https://github.com/apreshill
-- icon: impactstory
-  icon_pack: ai
-  link: https://impactstory.org/u/0000-0002-8082-1890
+  link: https://github.com/noisyoscillator
 - icon: orcid
   icon_pack: ai
   link: http://orcid.org/0000-0002-8082-1890
 - icon: linkedin-in
   icon_pack: fab
-  link: https://www.linkedin.com/in/alisonpresmaneshill/
-- icon: keybase
-  icon_pack: fab
-  link: https://keybase.io/alisonhill
+  link: https://www.linkedin.com/in/pinaki-bhattacharyya-iisc/
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.com/citations?user=yGD9V6MAAAAJ&hl=en
+  link: https://scholar.google.com/citations?user=D-kgr5gAAAAJ&hl=en
 superuser: true
-title: Alison Hill
+title: Pinaki Bhattacharyya
 ---
+I'm a researcher in the field of Polymer Physics. I am an international keynote [speaker](/talks), [award-winning educator](/resume/#accomplishments), and co-author of the book [*blogdown: Creating Websites with R Markdown*](https://bookdown.org/yihui/blogdown/). I love creating [unique platforms](/projects) for sharing knowledge and data-driven insights, from websites to presentations and everything in between. I am known for being a compassionate leader and enthusiastic collaborator, and for making user-facing experiences that engage and delight.
 
-I am a PhD data scientist and professional educator at RStudio. I am an international keynote [speaker](/talks), [award-winning educator](/resume/#accomplishments), and co-author of the book [*blogdown: Creating Websites with R Markdown*](https://bookdown.org/yihui/blogdown/). I love creating [unique platforms](/projects) for sharing knowledge and data-driven insights, from websites to presentations and everything in between. I am known for being a compassionate leader and enthusiastic collaborator, and for making user-facing experiences that engage and delight.
 
 
