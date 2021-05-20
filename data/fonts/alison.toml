@@ -2,7 +2,7 @@
 name = "alison"
 
 # Optional Google font URL
-google_fonts = "Lora:ital@0;1|Vollkorn:ital,wght@0,400;0,600;1,400;1,600|DM+Mono"
+google_fonts = "Lora:wght@400;600|Crimson+Pro:ital,wght@0,400;0,700;1,400;1,700|Vollkorn:ital,wght@0,400;0,600;1,400;1,600|DM+Mono"
 
 # Font families
 heading_font = "Lora"
