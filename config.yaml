@@ -1,6 +1,6 @@
 title: Pinaki Bhattacharyya
 baseurl: https://pbhattacharyya.rbind.io
-copyright: '&copy;{year} Pinaki Bhattacharyya'
+copyright: 'Copyright &copy;{year} Pinaki Bhattacharyya, All right reserved'
 theme: hugo-academic
 enableGitInfo: no
 defaultContentLanguage: en
