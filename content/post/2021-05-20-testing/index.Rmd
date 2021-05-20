@@ -25,7 +25,7 @@ projects: []
 knitr::opts_chunk$set(collapse = TRUE)
 ```
 
-# R Markdown
+## R Markdown
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
@@ -37,7 +37,7 @@ fit <- lm(dist ~ speed, data = cars)
 fit
 ```
 
-# Including Plots
+## Including Plots
 
 You can also embed plots. See Figure \@ref(fig:pie) for example:
 
