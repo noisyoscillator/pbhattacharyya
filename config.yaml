@@ -1,15 +1,39 @@
+# Configuration of Hugo
+# Guide: https://wowchemy.com/docs/getting-started/
+# Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
+# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+
 title: Pinaki Bhattacharyya
 baseurl: https://pbhattacharyya.rbind.io
 copyright: 'Copyright &copy;{year} Pinaki Bhattacharyya, All right reserved'
 theme: hugo-academic
-enableGitInfo: no
+
+############################
+## LANGUAGE
+############################
+
 defaultContentLanguage: en
-hasCJKLanguage: no
-defaultContentLanguageInSubdir: no
-removePathAccents: yes
+hasCJKLanguage: false
+defaultContentLanguageInSubdir: false
+removePathAccents: true
+
+############################
+## MODULES
+############################
+
+module:
+  imports:
+    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms
+    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy
+    
+############################
+## ADVANCED
+############################
+
+enableGitInfo: false
 summaryLength: 30
 paginate: 10
-enableEmoji: yes
+enableEmoji: true
 footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles:
   - \.ipynb$
@@ -19,12 +43,20 @@ ignoreFiles:
   - \.knit\.md$
   - \.utf8\.md$
   - _cache$
+permalinks:
+  event: '/talk/:slug/'
+  tags: '/tag/:slug/'
+  categories: '/category/:slug/'
+  publication_types: '/publication-type/:slug/'
+disableAliases: true
 outputs:
   home:
     - HTML
     - RSS
     - JSON
     - WebAppManifest
+    - headers
+    - redirects
   section:
     - HTML
     - RSS
@@ -39,19 +71,30 @@ markup:
   defaultMarkdownHandler: goldmark
   goldmark:
     renderer:
-      unsafe: yes
+      unsafe: true
   highlight:
-    codeFences: no
+    codeFences: true
     style: pygments
   tableOfContents:
     endLevel: 2
-    startLevel: 2
+    startLevel: 3
 imaging:
   anchor: smart
-  quality: 90
+  quality: 75
   resampleFilter: lanczos
+timeout: 600000
 taxonomies:
   author: authors
   category: categories
   publication_type: publication_types
   tag: tags
+related:
+  threshold: 80
+  includeNewer: true
+  toLower: true
+  indices:
+    - name: tags
+      weight: 100
+    - name: categories
+      weight: 70
+
