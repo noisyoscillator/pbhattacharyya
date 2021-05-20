@@ -132,7 +132,3 @@ projects: []
 - Statistical Mechanics, Optimization, Inference and Message Passing Algorithms
 - Computational Complexity and Statistical Physics
 - Phase transitions in combinatorial optimization problems\_ basics, algorithms and statistical mechanics
-
-![](RackMultipart20210520-4-exnywp_html_a04d9df78b0c38e3.png)
-
--
