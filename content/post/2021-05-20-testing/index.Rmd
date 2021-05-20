@@ -1,10 +1,25 @@
 ---
-title: "Hello R Markdown"
-author: "Frida Gomam"
-date: 2020-12-01T21:13:14-05:00
-categories: ["R"]
-tags: ["R Markdown", "plot", "regression"]
+title: Testing
+author: Pinaki
+date: '2021-05-20'
+slug: []
+categories:
+  - R
+tags:
+  - R Markdown, plot
+subtitle: 'first blog post push'
+summary: ''
+authors: []
+lastmod: '2021-05-20T06:04:15+05:30'
+featured: no
+disable_jquery: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
 ---
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(collapse = TRUE)
@@ -14,7 +29,7 @@ knitr::opts_chunk$set(collapse = TRUE)
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-You can embed an R code chunk like this:
+You can **embed an R code** chunk like this:
 
 ```{r cars}
 summary(cars)
