@@ -2,10 +2,10 @@
 name = "alison"
 
 # Optional Google font URL
-google_fonts = "Lora:wght@400;600|Crimson+Pro:ital,wght@0,400;0,700;1,400;1,700|Vollkorn:ital,wght@0,400;0,600;1,400;1,600|DM+Mono"
+google_fonts = "Lora:400,400i|Karla:400,400i,700,700i|Crimson+Pro:400,400i,600,600i|Vollkorn:400,400i,600,600i|DM+Mono"
 
 # Font families
 heading_font = "Lora"
-body_font = "Crimson+Pro"
+body_font = "Vollkorn"
 nav_font = "Karla"
 mono_font = "DM Mono"

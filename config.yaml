@@ -76,8 +76,8 @@ markup:
     codeFences: true
     style: pygments
   tableOfContents:
-    endLevel: 2
-    startLevel: 3
+    startLevel: 2
+    endLevel: 4
 imaging:
   anchor: smart
   quality: 75
